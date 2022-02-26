@@ -7,3 +7,5 @@
 
 **Table of content :**
 - Learn SQL
+- Terminal 
+- Growth_Mindset
