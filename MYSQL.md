@@ -1,3 +1,8 @@
+layout: page
+title: "MYSQL"
+permalink: /MYSQL/
+
+
 ### Learn SQL 
 SQL Lesson 1: SELECT queries 101
 Select query for a specific columns
