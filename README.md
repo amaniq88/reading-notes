@@ -6,6 +6,6 @@
 ## Code 401 - Advanced Software Development
 
 **Table of content :**
-- Learn SQL
-- Terminal 
-- Growth_Mindset
+- [Learn SQL]( https://amaniq88.github.io/reading-notes/SQL)
+- [Terminal](https://amaniq88.github.io/reading-notes/Terminal)
+- [Growth_Mindset](https://amaniq88.github.io/reading-notes/Growth_Mindset)
