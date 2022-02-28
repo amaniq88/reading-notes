@@ -9,6 +9,6 @@
 - [Learn SQL]( https://amaniq88.github.io/reading-notes/MYSQL)
 - [Terminal](https://amaniq88.github.io/reading-notes/Terminal)
 - [Growth_Mindset](https://amaniq88.github.io/reading-notes/Growth_Mindset)
-- [Read_Class01](https://amaniq88.github.io/reading-notes/Read_Class01)
-- [Read_Class02](https://amaniq88.github.io/reading-notes/Read_Class_02)
+- [Read_Class01](https://amaniq88.github.io/reading-notes/Read_Class01.md)
+- [Read_Class02](https://amaniq88.github.io/reading-notes/Read_Class_02.md)
 
