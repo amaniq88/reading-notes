@@ -12,3 +12,4 @@
 - [Read_Class01](https://amaniq88.github.io/reading-notes/Read_Class01)
 - [Read_Class02](https://amaniq88.github.io/reading-notes/Read_Class_02)
 - [Read_Class03](https://amaniq88.github.io/reading-notes/Read_Class03)
+- [Read_Class04](https://amaniq88.github.io/reading-notes/Read_Class_04) 
