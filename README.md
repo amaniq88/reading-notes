@@ -13,3 +13,4 @@
 - [Read_Class02](https://amaniq88.github.io/reading-notes/Read_Class_02)
 - [Read_Class03](https://amaniq88.github.io/reading-notes/Read_Class03)
 - [Read_Class04](https://amaniq88.github.io/reading-notes/Read_Class_04) 
+- [Read: Linked Lists](https://amaniq88.github.io/reading-notes/Read_Class_05) 
