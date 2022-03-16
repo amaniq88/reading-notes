@@ -16,3 +16,4 @@
 - [Read: Linked Lists](https://amaniq88.github.io/reading-notes/Read_Class_05) 
 - [Read_Class_06](https://amaniq88.github.io/reading-notes/Read:_Class_06)
 - [Readings_GameOfGreed_2](https://amaniq88.github.io/reading-notes/Readings_GameOfGreed_2)
+- [Readings: Game_of_Greed3](https://amaniq88.github.io/reading-notes/Readings_Game_of_Greed3)
