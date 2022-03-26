@@ -18,3 +18,5 @@
 - [Readings_GameOfGreed_2](https://amaniq88.github.io/reading-notes/Readings_GameOfGreed_2)
 - [Readings: Game_of_Greed3](https://amaniq88.github.io/reading-notes/Readings_Game_of_Greed3)
 - [Readings: ReadClass09](https://amaniq88.github.io/reading-notes/ReadClass09)
+- [Readings: Stack  and Queses ](https://amaniq88.github.io/reading-notes/Read_Stacks_Queues)
+
