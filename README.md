@@ -22,4 +22,5 @@
 - [Readings_DataAnalysis](https://amaniq88.github.io/reading-notes/Readings_DataAnalysis)
 - [Readings_12](https://amaniq88.github.io/reading-notes/ReadClass12)
 - [Reading13: Linear regression in Python ](https://github.com/amaniq88/reading-notes/blob/main/Read_Class_13.md)
+- [Readings14: Data Visualization](https://github.com/amaniq88/reading-notes/blob/main/Read_Class14.md)
 
