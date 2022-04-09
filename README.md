@@ -24,4 +24,5 @@
 - [Reading13: Linear regression in Python ](https://amaniq88.github.io/reading-notes/Read_Class_13)
 - [Readings14: Data Visualization](https://amaniq88.github.io/reading-notes/Read_Class14)
 - [Readings_Read_Trees](https://amaniq88.github.io/reading-notes/Read_Trees)
+- [READING: Serverless]((https://amaniq88.github.io/reading-notes/Serverless))
 
