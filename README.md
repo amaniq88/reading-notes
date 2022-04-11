@@ -25,4 +25,5 @@
 - [Readings14: Data Visualization](https://amaniq88.github.io/reading-notes/Read_Class14)
 - [Readings_Read_Trees](https://amaniq88.github.io/reading-notes/Read_Trees)
 - [READING: Serverless](https://amaniq88.github.io/reading-notes/Serverless)
+- [Readings: Web Scraping](https://amaniq88.github.io/reading-notes/Read_Class17)
 
