@@ -27,4 +27,4 @@
 - [READING: Serverless](https://amaniq88.github.io/reading-notes/Serverless)
 - [Readings: Web Scraping](https://amaniq88.github.io/reading-notes/Read_Class17)
 - [Intro to Django](https://github.com/amaniq88/reading-notes/blob/main/IntrotoDjango)
-
+- [Readings: Django Models](https://github.com/amaniq88/reading-notes/blob/main/IntrotoDjango)
