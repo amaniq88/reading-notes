@@ -33,4 +33,6 @@
 
 3- [Class28 : Readings: Django CRUD and Forms](https://amaniq88.github.io/reading-notes/Class28)
 
+4- [Readings: Django Custom User](https://amaniq88.github.io/reading-notes/class29)
+
 
