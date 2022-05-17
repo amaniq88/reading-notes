@@ -26,13 +26,12 @@
 - [Readings_Read_Trees](https://amaniq88.github.io/reading-notes/Read_Trees)
 - [READING: Serverless](https://amaniq88.github.io/reading-notes/Serverless)
 - [Readings: Web Scraping](https://amaniq88.github.io/reading-notes/Read_Class17)
-  ### Django
-1-  [Intro to Django](https://amaniq88.github.io/reading-notes/IntrotoDjango)
+- [Intro to Django](https://amaniq88.github.io/reading-notes/IntrotoDjango)
 
-2- [Readings: Django Models](https://amaniq88.github.io/reading-notes/Readings:DjangoModels)
+- [Readings: Django Models](https://amaniq88.github.io/reading-notes/Readings:DjangoModels)
 
-3- [Class28 : Readings: Django CRUD and Forms](https://amaniq88.github.io/reading-notes/Class28)
+- [Class28 : Readings: Django CRUD and Forms](https://amaniq88.github.io/reading-notes/Class28)
 
-4- [Readings: Django Custom User](https://amaniq88.github.io/reading-notes/class29)
+- [Readings: Django Custom User](https://amaniq88.github.io/reading-notes/class29)
 
 
