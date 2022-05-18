@@ -28,15 +28,6 @@ Here are the commands to run:
 (.venv) > python manage.py runserver
 
 # macOS
-% cd ~/desktop/code
-% mkdir pages
-% cd pages
-% python3 -m venv .venv
-% source .venv/bin/activate
-(.venv) % python3 -m pip install django~=4.0.0
-(.venv) % django-admin startproject django_project .
-(.venv) % python3 manage.py startapp accounts
-(.vent) % python3 manage.py runserver
 Note that we did not run migrate to configure our database. It's important to wait until after we've created our new custom user model before doing so.
 
 If you navigate to http://127.0.0.1:8000 you’ll see the Django welcome screen.
@@ -148,73 +139,6 @@ Then set the redirect links for log in and log out, which will both go to our ho
 LOGIN_REDIRECT_URL = "home"
 LOGOUT_REDIRECT_URL = "home"
 Create a new project-level templates folder and within it a registration folder as that's where Django will look for the log in template. We will also put our signup.html template in there.
-
-(.venv) > mkdir templates
-(.venv) > mkdir templates/registration
-Then create four templates using either the touch command on macOS or your text editor on Windows.
-
-(.venv) % touch templates/registration/login.html
-(.venv) % touch templates/registration/signup.html
-(.venv) % touch templates/base.html
-(.venv) % touch templates/home.html
-Update the files as follows:
-
-<!-- templates/base.html -->
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>{% block title %}Django Auth Tutorial{% endblock %}</title>
-</head>
-<body>
-  <main>
-    {% block content %}
-    {% endblock %}
-  </main>
-</body>
-</html>
-<!-- templates/home.html -->
-{% extends "base.html" %}
-
-{% block title %}Home{% endblock %}
-
-{% block content %}
-{% if user.is_authenticated %}
-  Hi {{ user.username }}!
-  <p><a href="{% url 'logout' %}">Log Out</a></p>
-{% else %}
-  <p>You are not logged in</p>
-  <a href="{% url 'login' %}">Log In</a> |
-  <a href="{% url 'signup' %}">Sign Up</a>
-{% endif %}
-{% endblock %}
-<!-- templates/registration/login.html -->
-{% extends "base.html" %}
-
-{% block title %}Log In{% endblock %}
-
-{% block content %}
-<h2>Log In</h2>
-<form method="post">
-  {% csrf_token %}
-  {{ form.as_p }}
-  <button type="submit">Log In</button>
-</form>
-{% endblock %}
-<!-- templates/registration/signup.html -->
-{% extends "base.html" %}
-
-{% block title %}Sign Up{% endblock %}
-
-{% block content %}
-<h2>Sign Up</h2>
-<form method="post">
-  {% csrf_token %}
-  {{ form.as_p }}
-  <button type="submit">Sign Up</button>
-</form>
-{% endblock %}
-Now for our urls.py files at the project and app level.
 
 # django_project/urls.py
 from django.contrib import admin
