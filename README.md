@@ -33,5 +33,6 @@
 - [Class28 : Readings: Django CRUD and Forms](https://amaniq88.github.io/reading-notes/Class28)
 
 - [Readings: Django Custom User](https://amaniq88.github.io/reading-notes/class29)
+- [Hash Tables](https://amaniq88.github.io/reading-notes/HashTables)
 
 
