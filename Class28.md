@@ -294,34 +294,13 @@ Copy to Clipboard
 The template
 Create the template referenced in the view (/catalog/templates/catalog/book_renew_librarian.html) and copy the code below into it:
 
-{% extends "base_generic.html" %}
-
-{% block content %}
-  <h1>Renew: {{ book_instance.book.title }}</h1>
-  <p>Borrower: {{ book_instance.borrower }}</p>
-  <p{% if book_instance.is_overdue %} class="text-danger"{% endif %}>Due date: {{ book_instance.due_back }}</p>
-
-  <form action="" method="post">
-    {% csrf_token %}
-    <table>
-    {{ form.as_table }}
-    </table>
-    <input type="submit" value="Submit">
-  </form>
-{% endblock %}
 Copy to Clipboard
 Most of this will be completely familiar from previous tutorials.
 
 We extend the base template and then redefine the content block. We are able to reference {{ book_instance }} (and its variables) because it was passed into the context object in the render() function, and we use these to list the book title, borrower, and the original due date.
 
-The form code is relatively simple. First, we declare the form tags, specifying where the form is to be submitted (action) and the method for submitting the data (in this case an "HTTP POST") — if you recall the HTML Forms overview at the top of the page, an empty action as shown, means that the form data will be posted back to the current URL of the page (which is what we want). Inside the tags, we define the submit input, which a user can press to submit the data. The {% csrf_token %} added just inside the form tags is part of Django's cross-site forgery protection.
-
-Note: Add the {% csrf_token %} to every Django template you create that uses POST to submit data. This will reduce the chance of forms being hijacked by malicious users.
-
-All that's left is the {{ form }} template variable, which we passed to the template in the context dictionary. Perhaps unsurprisingly, when used as shown this provides the default rendering of all the form fields, including their labels, widgets, and help text — the rendering is as shown below:
-
-<tr>
-  <th><label for="id_renewal_date">Renewal date:</label></th>
+The form code is relatively simple. First, we declare the form tags, specifying where the form is to be submitted (action) and the method for submitting the data (in this case an "HTTP POST") — if you recall the HTML Forms overview at the top of the page, an empty action as shown, means that the form data will be posted back to the current URL of the page (which is what we want). Inside the tags, we define the submit input, which a user can press to submit the data.  added just inside the form tags is part of Django's cross-site forgery protection.
+ for="id_renewal_date">Renewal date:</label></th>
   <td>
     <input id="id_renewal_date" name="renewal_date" type="text" value="2016-11-08" required>
     <br>
@@ -359,7 +338,7 @@ For more examples of how to manually render forms in templates and dynamically l
 Testing the page
 If you accepted the "challenge" in Django Tutorial Part 8: User authentication and permissions you'll have a list of all books on loan in the library, which is only visible to library staff. We can add a link to our renew page next to each item using the template code below.
 
-{% if perms.catalog.can_mark_returned %}- <a href="{% url 'renew-book-librarian' bookinst.id %}">Renew</a>  {% endif %}
+
 Copy to Clipboard
 Note: Remember that your test login will need to have the permission "catalog.can_mark_returned" in order to access the renew book page (perhaps use your superuser account).
 
@@ -473,36 +452,14 @@ The "create" and "update" views use the same template by default, which will be 
 
 Create the template file locallibrary/catalog/templates/catalog/author_form.html and copy in the text below.
 
-{% extends "base_generic.html" %}
 
-{% block content %}
-  <form action="" method="post">
-    {% csrf_token %}
-    <table>
-    {{ form.as_table }}
-    </table>
-    <input type="submit" value="Submit">
-  </form>
-{% endblock %}
-Copy to Clipboard
-This is similar to our previous forms and renders the fields using a table. Note also how again we declare the {% csrf_token %} to ensure that our forms are resistant to CSRF attacks.
-
-The "delete" view expects to find a template named with the format model_name_confirm_delete.html (again, you can change the suffix using template_name_suffix in your view). Create the template file locallibrary/catalog/templates/catalog/author_confirm_delete.html and copy in the text below.
-
-{% extends "base_generic.html" %}
-
-{% block content %}
 
 <h1>Delete Author</h1>
 
 <p>Are you sure you want to delete the author: {{ author }}?</p>
 
 <form action="" method="POST">
-  {% csrf_token %}
-  <input type="submit" value="Yes, delete.">
-</form>
-
-{% endblock %}
+  
 Copy to Clipboard
 URL configurations
 Open your URL configuration file (locallibrary/catalog/urls.py) and add the following configuration to the bottom of the file:
