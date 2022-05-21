@@ -35,4 +35,5 @@
 - [Readings: Django Custom User](https://amaniq88.github.io/reading-notes/class29)
 - [Hash Tables](https://amaniq88.github.io/reading-notes/HashTables)
 
+-[Readings: Django REST Framework & Docker](https://amaniq88.github.io/reading-notes/read31)
 
