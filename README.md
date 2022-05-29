@@ -37,3 +37,5 @@
 
 -[Readings: Django REST Framework & Docker](https://amaniq88.github.io/reading-notes/read31)
 
+-[Readings: Authentication & Production Server](https://amaniq88.github.io/reading-notes/read33)
+
