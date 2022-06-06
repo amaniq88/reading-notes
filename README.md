@@ -27,19 +27,12 @@
 - [READING: Serverless](https://amaniq88.github.io/reading-notes/Serverless)
 - [Readings: Web Scraping](https://amaniq88.github.io/reading-notes/Read_Class17)
 - [Intro to Django](https://amaniq88.github.io/reading-notes/IntrotoDjango)
-
 - [Readings: Django Models](https://amaniq88.github.io/reading-notes/Readings:DjangoModels)
-
 - [Class28 : Readings: Django CRUD and Forms](https://amaniq88.github.io/reading-notes/Class28)
-
 - [Readings: Django Custom User](https://amaniq88.github.io/reading-notes/class29)
 - [Hash Tables](https://amaniq88.github.io/reading-notes/HashTables)
-
--[Readings: Django REST Framework & Docker](https://amaniq88.github.io/reading-notes/read31)
-
--[Readings: Authentication & Production Server](https://amaniq88.github.io/reading-notes/read33)
-
--[graphs](https://amaniq88.github.io/reading-notes/graphs)
-
--[Readings: DSA Review](https://amaniq88.github.io/reading-notes/read36)
-
+- [Readings: Django REST Framework & Docker](https://amaniq88.github.io/reading-notes/read31)
+- [Readings: Authentication & Production Server](https://amaniq88.github.io/reading-notes/read33)
+- [graphs](https://amaniq88.github.io/reading-notes/graphs)
+- [Readings: DSA Review](https://amaniq88.github.io/reading-notes/read36)
+- [READING : REACT](https://amaniq88.github.io/reading-notes/read37)
