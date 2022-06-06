@@ -41,3 +41,5 @@
 
 -[graphs](https://amaniq88.github.io/reading-notes/graphs)
 
+-[Readings: DSA Review](https://amaniq88.github.io/reading-notes/read36)
+
